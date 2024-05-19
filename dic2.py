@@ -1,7 +1,7 @@
 d1={"a":"apple","b":"boy","c":"cat","d":"dog"}
 d1["c"]="cow"
-print(d.values())
-print(d.values())
+print(d1.values())
+print(d1.values())
 d2={"d":"day","e":"egg"}
 d1.update(d2)
 print(d1)
