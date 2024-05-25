@@ -34,7 +34,7 @@ elif ch==6:
     print(f"Quotient of {a} and {b} is {r1}")
 elif ch==7:
     r1=a**b
-    print(f"Addition of {a} and {b} is {r1}")
+    print(f"Exponentent of {a} and {b} is {r1}")
 else:
     print("sorry:: wrong operatar")
 print("thnak you using it \n this is created by gour")
