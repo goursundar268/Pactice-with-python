@@ -1,3 +1,4 @@
+# Write a Python program to check whether a given key already exists in a dictionary.
 def check_key_exits(key):
     if key in my_dict:
         print(f"The key {key} exits in the dictionary")

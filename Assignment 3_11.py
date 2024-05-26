@@ -1,3 +1,4 @@
+# Write a Python program to check all values are the same in a dictionary.
 def count_value(value,dict):
     c=0
     for i in dict.values():

@@ -1,3 +1,4 @@
+# Write a PYTHON program to calculate the Fibonacci series using function.
 a,b=0,1
 listt=[0,]
 def fibonacci():

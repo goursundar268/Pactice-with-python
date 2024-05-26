@@ -1,3 +1,4 @@
+#	Write a PYTHON program to check if a number is a palindrome or not using function.
 def palindrome(num):
     a=str(num)
     a=a[::-1]

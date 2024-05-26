@@ -1,3 +1,5 @@
+#	Write a PYTHON program to check whether a number is prime or not using function.
+
 #funcution are here:
 def chack_prime(number):
     f=0

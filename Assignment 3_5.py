@@ -1,3 +1,4 @@
+# Write a program to find LCM and GCD of two numbers using user define function.
 def lcm(x,y):
     larger=max(x,y)
     for i in range(larger,x*y+1):

@@ -1,3 +1,4 @@
+# Write a Python program to concatenate the following dictionaries to create a new one.
 def concatenate_dicts(*dicts):
     new_dict={}
     for d in dicts:
