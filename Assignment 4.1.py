@@ -1,3 +1,5 @@
+# Write a program to create a text file named ‘std_rec’ with record stu_name,stu_roll and stu_marks.
+
 fp=open("std_rec.txt","w")
 num=int(input("Enter Number of Students:- "))
 

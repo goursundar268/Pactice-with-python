@@ -1,2 +1,2 @@
-ankita	1	99
-gour	3	90
+gour	12	66
+ankita	13	77
