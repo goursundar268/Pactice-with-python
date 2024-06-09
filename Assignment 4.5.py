@@ -1,3 +1,5 @@
+#  Create a GUI program for calculator using python tkinter.
+
 from tkinter import *
 gour=Tk()
 gour.title("My Application")
@@ -14,6 +16,14 @@ def btn_click(num):
 
 def equal():
     global exp
+    try:
+        exp=str(eval(exp))
+    except ZeroDivisionError:
+        var.set("error")
+        exp= ""
+        return
+    
+
     exp=str(eval(exp))
     var.set(exp)
 
@@ -46,6 +56,7 @@ a2=Button(x,text="%",height=2,width=4,font="normal",command=lambda:btn_click("%"
 backspace=Button(x,text="⌫",height=2,width=4,font="normal",command=backspace).grid(row=0,column=2)
 
 a4=Button(x,text="/",height=2,width=4,font="normal",command=lambda:btn_click("/")).grid(row=0,column=3)
+
 
 #--------------------------------------------------------------------------2nd rows
 
