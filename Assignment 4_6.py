@@ -6,18 +6,21 @@ gour=Tk()
 gour.title("Calender")
 gour.geometry("200x300")
 def show():
-    m=int(month.get())
+    m=int(mont.get())
     y=int(year.get())
     output.delete(0,0,END)
-    output.insert("Insert",month(m,y))
+    output.insert(INSERT,month(y,m))
 
 Label(gour,text="month:").pack()
-month=Spinbox(gour,from_=1,to=12).pack()
+mont=Spinbox(gour,from_=1,to=12)
+mont.pack()
 Label(gour,text="year:").pack()
-year=Spinbox(gour,from_=1900,to=2100).pack()
+year=Spinbox(gour,from_=1900,to=2100)
+year.pack()
 
 Button(gour,text="show",command=show).pack()
-output=Text(gour,width=20,height=10,wrap=WORD).pack()
+output=Text(gour,width=20,height=10,wrap=WORD)
+output.pack()
 gour.mainloop()
 
 
