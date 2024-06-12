@@ -8,7 +8,7 @@ gour.geometry("200x300")
 def show():
     m=int(mont.get())
     y=int(year.get())
-    output.delete(0,0,END)
+    #output.delete(0,0,END)
     output.insert(INSERT,month(y,m))
 
 Label(gour,text="month:").pack()
